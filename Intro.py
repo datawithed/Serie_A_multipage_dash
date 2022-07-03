@@ -21,6 +21,10 @@ st.header("""
          \n By Ed Morris
          """)
 st.markdown("""
+            **Navigating the dashboard:**
+            - Click the arrow in the top left to open the sidebar
+            - Select an analysis from the sidebar, close the sidebar
+            **Aims of the dashboard:**
             - This is a brief dashboard demonstrating manipulation and data visualisations using free Wyscout event data for the Serie A match Juventus - Sampdoria on 10th September 2020.
             - Here, I hope to demonstrate my ability to use this event data to create visually appealing graphics that can be used to analyse individual player performance, team performance and provide data-driven metrics where appropriate.
             - The data used for this can be found here: https://footballdata.wyscout.com/download-samples/
