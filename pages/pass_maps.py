@@ -18,6 +18,9 @@ import json
 import os
 from mplsoccer import Pitch, VerticalPitch
 
+# Configure page
+st.set_page_config(page_title = 'Pass maps', page_icon = Image.open('arrow.jpg'))
+
 # Set font
 font1 = font_manager.FontProperties(family = 'Tahoma')
 font = {'fontname':'Tahoma'}
