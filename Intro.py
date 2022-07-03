@@ -12,7 +12,7 @@ from PIL import Image
 # ==========================================================
 # Dashboard configuration
 # ==========================================================
-st.set_page_config(page_title = 'Intro', page_icon = Image.open('Serie_A_logo.jpg'))
+st.set_page_config(page_title = 'Intro', page_icon = Image.open('Serie_A_logo.jpg'), initial_sidebar_state = 'expanded')
 
 st.sidebar.success('Select an analysis above.')
 
