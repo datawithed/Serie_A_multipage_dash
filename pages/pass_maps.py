@@ -25,8 +25,8 @@ font = {'fontname':'Tahoma'}
 # Load data
 def load_data():
     # Set wd path
-    rfp_path = r"C:\Users\ed.morris\Documents\Python Scripts\Wyscout"
-    os.chdir(rfp_path)
+    #rfp_path = r"C:\Users\ed.morris\Documents\Python Scripts\Wyscout"
+    #os.chdir(rfp_path)
 
     # Read in json to variable 'data'
     with open('Sample event data.txt') as json_file:
