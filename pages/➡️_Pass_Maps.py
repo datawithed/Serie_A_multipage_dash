@@ -27,6 +27,7 @@ st.sidebar.success('Select an analysis above.')
 font1 = font_manager.FontProperties(family = 'Tahoma')
 font = {'fontname':'Tahoma'}
 
+@st.cache
 # Load data
 def load_data():
     # Set wd path
