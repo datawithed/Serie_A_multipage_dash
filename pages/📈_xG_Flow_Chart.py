@@ -152,8 +152,6 @@ def xg_chart():
     plt.rcParams['figure.dpi'] = 800
     st.pyplot(fig)
 
-st.set_page_config(page_title = 'xG Flow Chart', page_icon = Image.open('Serie_A_logo.jpg'))
-
 st.title('xG Flow Chart')
 xg_chart()
 st.caption('xG flow chart showing xG generated across the course of the match. Commentary below.')
