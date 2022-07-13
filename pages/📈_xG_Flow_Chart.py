@@ -19,6 +19,7 @@ import os
 font1 = font_manager.FontProperties(family = 'Tahoma')
 font = {'fontname':'Tahoma'}
 
+@st.cache
 def load_data():
     # Set wd path
     #rfp_path = r"C:\Users\ed.morris\Documents\Python Scripts\Wyscout"
