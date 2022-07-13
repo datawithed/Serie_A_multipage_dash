@@ -15,7 +15,7 @@ import json
 import os
 from mplsoccer import Pitch, VerticalPitch
 
-
+@st.cache
 # Load data
 def load_data():
     # Set wd path
