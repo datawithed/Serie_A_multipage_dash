@@ -7,3 +7,4 @@ streamlit==1.10.0
 matplotlib==3.4.3
 matplotlib-inline==0.1.2
 mplsoccer==1.0.6
+altair==4.2.2
